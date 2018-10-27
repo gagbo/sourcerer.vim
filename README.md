@@ -12,7 +12,18 @@
   └─ based on mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
 ```
 
-![](https://raw.githubusercontent.com/xero/sourcerer/master/preview.png)
+![](https://raw.githubusercontent.com/gagbo/sourcerer/master/preview.png)
+
+# Forking disclaimer
+
+### Lightline theme
+This fork only aims to add a Lightline colorscheme so the plugin is "a single unit"
+for my (@gagbo) use-case of vim.
+
+### C family and Rust highlights ?
+Not sure why, but there are Python and diff specific highlights in the file,
+investigating if more language specific highlights are necessary for me is also on
+the TODO list.
 
 # install
 
