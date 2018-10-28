@@ -12,7 +12,7 @@
   └─ based on mustang by Henrique C. Alves (hcarvalhoalves@gmail.com)
 ```
 
-![](https://raw.githubusercontent.com/gagbo/sourcerer/master/preview.png)
+![](https://raw.githubusercontent.com/gagbo/sourcerer.vim/master/preview.png)
 
 # Forking disclaimer
 
