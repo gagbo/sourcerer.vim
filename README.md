@@ -17,7 +17,7 @@
 # Forking disclaimer
 
 ### Lightline theme
-This fork only aims to add a Lightline colorscheme so the plugin is "a single unit"
+This fork adds a Lightline colorscheme so the plugin is "a single unit"
 for my (@gagbo) use-case of vim.
 
 ### C family and Rust highlights ?
@@ -27,11 +27,26 @@ the TODO list.
 
 # install
 
+### manually in 'runtimepath'
+copy the `colors` folder in this repo to your `~/.vim` or `~/.config/nvim` directory
+
+### manually in 'packpath'
+This method works only for vim 8+ and neovim (see `:h packages` for further
+information and compatibility)
+
+clone the repo in your `~/.vim/pack/gagbo/start` or `~/.config/nvim/pack/gagbo/start`
+directory after having created them.
+
+Advantages :
+
+- the *gagbo* part can be any string you wish. So it's easier to pack multiple plugins
+  under the same package name and group them by theme or author or whatever you want.
+- the whole colorscheme is bundled in its own folder for easy deletion/fork
+- you can also put the folder in the `opt/` subfolder instead of `start/` to enable
+  explicit loading of the colorscheme (granted, this is more useful for bigger plugins)
+
 ### package manager
 add the repo url via your favorite vim package manager. e.g for vundle: `Plugin 'xero/sourcerer.vim'` 
-
-### manually
-copy the `colors` folder in this repo to your `~/.vim` or `~/.config/nvim` directory
 
 # use
 then in your `~/.vimrc` or `~/.config/nvim/init.vim` add `colorscheme sourcerer` and turn `:syntax on`
