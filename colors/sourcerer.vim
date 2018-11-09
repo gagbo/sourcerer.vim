@@ -19,6 +19,22 @@ endif
 
 let colors_name = "sourcerer"
 
+let g:terminal_ansi_colors = [ "#111111",
+            \ "#aa4450",
+            \ "#719611",
+            \ "#ff9800",
+            \ "#6688aa",
+            \ "#8f6f8f",
+            \ "#528b8b",
+            \ "#d3d3d3",
+            \ "#181818",
+            \ "#ff6a6a",
+            \ "#b1d631",
+            \ "#87875f",
+            \ "#90b0d1",
+            \ "#8181a6",
+            \ "#87ceeb",
+            \ "#c1cdc1"]
 
 "  █▓▒░ GUI colors
 hi Normal       guifg=#c2c2b0 guibg=#222222 gui=NONE
